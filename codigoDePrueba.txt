@@ -1,0 +1,11 @@
+BEGIN {
+INTEGER a1, a2=20, a3;
+REAL b21, b22, b23=2.5;
+READ a1;
+READ b21;
+a3=+(a1,a2);
+a2=+(a1,-(30,a3));
+b22=*(b21,/(b23,5.0));
+WRITE a2
+WRITE b22
+} END
